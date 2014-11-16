@@ -1,4 +1,8 @@
 randas
 ======
 
-pandas for ruby
+A very much WIP port of pandas for ruby
+
+Features:
+
+...
