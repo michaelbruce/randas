@@ -1,10 +1,11 @@
 require 'csv'
 
-class FileReader
+class DataSet
 
   def initialize(filename)
     @filename = filename
-    detect_type
+    #@filedata = detect_type
+    read_csv
   end
 
   def detect_type
@@ -19,8 +20,16 @@ class FileReader
     CSV.open(@filename, 'w') {|csv| @filedata.each {|record| csv << record }}
   end
 
+  def get_data
+    @filedata
+  end
+
   def print_file
-    print 'WIP'
+    @filedata.each {|line| p line }
+  end
+
+  def join(data_set)
+    data_set.get_data.each {|record| @filedata << record }
   end
 
 end
