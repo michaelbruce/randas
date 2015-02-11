@@ -1,3 +1,3 @@
-require_relative '../'
+#require_relative '../'
 
-require 'yaml'
+#require 'yaml'

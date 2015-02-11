@@ -2,7 +2,7 @@ source 'http://rubygems.org'
 
 ruby '2.1.2'
 gem 'rspec'
-gem 'yaml'
+#gem 'yaml'
 #gem 'rails', '3.2.17'
 
 #group :assets do

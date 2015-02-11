@@ -1,4 +1,4 @@
-randas
+randas (bears)
 ======
 
 A very much WIP port of pandas for ruby
