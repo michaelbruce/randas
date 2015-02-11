@@ -20,4 +20,10 @@ describe FileReader do
     reader = FileReader.new(csv)
     expect(reader.count_rows).to eq(4)
   end
+
+  it "should calculate the sum total of a given column" do
+    csv = File.dirname(__FILE__) + '/fixtures/csv_example1.csv'
+    reader = FileReader.new(csv)
+    expect(reader.sum_column("Duration")).to eq(127)
+  end
 end

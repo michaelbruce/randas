@@ -1,5 +1,5 @@
-Id, Date, Action, Actor
-001,"03/03/2000","Call","Joe"
-001,"03/03/2000","Call","Paul"
-001,"03/03/2000","Call","Andy"
-001,"03/03/2000","Call","Sebastian"
+Id,Date,Action,Actor,Duration
+001,"03/03/2000","Call","Joe", 34
+002,"03/03/2000","Call","Paul", 11
+003,"03/03/2000","Call","Andy", 5
+004,"03/03/2000","Call","Sebastian", 77

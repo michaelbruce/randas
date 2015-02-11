@@ -17,7 +17,17 @@ class FileReader
   end
 
   def print_file
+    @file.each do |row|
+      p row
+    end
+  end
 
+  def sum_column(identifier)
+    count = 0
+    @file.each do |row|
+      count += row[identifier].to_i
+    end
+    count
   end
 
   def csv_read(filename)
